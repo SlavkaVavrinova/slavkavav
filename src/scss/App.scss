@@ -1,0 +1,87 @@
+@use 'base/colors';
+@use 'base/root';
+@use 'base/mixins';
+
+@use 'layout/header';
+@use 'layout/nav';
+@use 'layout/footer';
+@use 'components/cv';
+@use 'components/portfolio';
+@use 'components/instagram';
+@use 'components/skills';
+@use 'components/contact';
+@use 'components/buttons';
+
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat:wght@100;400;600&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: root.$font-default;
+  font-size: 16px;
+  background-color: colors.$light;
+  color: colors.$dark;
+  line-height: 1.8;
+  margin: 0;
+  position: relative;
+  max-width: 1320px !important;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  color: colors.$primary;
+}
+
+h1 {
+  text-align: center;
+  color: colors.$primaryLight;
+  font-family: root.$font-special;
+  font-size: 400%;
+  font-weight: 200;
+}
+
+h2 {
+  text-align: center;
+  font-size: 300%;
+  font-family: root.$font-special;
+  font-weight: 200;
+}
+
+h3 {
+  font-size: 200%;
+  font-weight: 400;
+}
+
+.main {
+  padding: root.$spacer/2;
+
+  @include mixins.tablet {
+    padding: root.$spacer;
+  }
+
+  @include mixins.large {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.banner {
+  &__img {
+    width: 100vw;
+    max-width: 100%;
+  }
+}
+
+.bold {
+  font-weight: 600;
+}

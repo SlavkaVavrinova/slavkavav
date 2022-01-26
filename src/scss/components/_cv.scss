@@ -1,0 +1,473 @@
+@use '../base/colors';
+@use '../base/root';
+@use '../base/mixins';
+
+.page {
+  width: 100vw;
+  background: white;
+  line-height: 1.5;
+  font-size: 75%;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  margin-bottom: root.$spacer;
+}
+
+.cv__hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.foto {
+  width: 60vw;
+  margin: 2.5rem 20vw 1rem 20vw;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px -2px #582c3e;
+}
+
+.cv__title {
+  position: absolute;
+  font-family: root.$font-default;
+  font-size: 250%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #582c3e;
+  font-weight: 700;
+  font-style: italic;
+  width: 100vw;
+  top: 0;
+}
+
+.cv__h2 {
+  font-family: root.$font-default;
+  font-size: 150%;
+  font-weight: bold;
+  margin: 0;
+  padding: 0.5rem 0;
+  color: #582c3e;
+  font-style: italic;
+  text-align: left;
+}
+
+.cv__h3 {
+  margin: 0.5em 0;
+  font-size: 125%;
+  color: colors.$dark;
+  font-weight: bold;
+}
+
+.cv__list {
+  list-style-type: square;
+  margin: 0.5em 0 0 0;
+  padding-top: 0;
+}
+
+.noMargin {
+  margin: 0;
+}
+.cv__link {
+  color: #582c3e;
+  cursor: pointer;
+}
+
+.cv__link:hover {
+  background-color: #582c3e;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.cv__link:active,
+.cv__link:focus {
+  background-color: #dfc7d0;
+  color: #582c3e;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.hero__rightSide {
+  width: 100wv;
+  padding-left: 0.5rem;
+}
+
+.contact {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.contact__phoneEmail {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.contact__phoneEmail a,
+.contact__socialNetworks a,
+.contact__address div,
+.contact__address a {
+  display: flex;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+
+.contact__socialNetworks {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.5rem;
+}
+
+.contact__address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0.5rem;
+}
+
+.hero__rightSide img {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.important {
+  width: 95vw;
+  padding: 0 0.5rem 0.5rem 0.5rem;
+  margin-left: 0.5rem;
+  background-color: #dfc7d0;
+  border-radius: 5px;
+}
+
+.important__portfolio li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.important ul {
+  list-style-type: square;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container__leftSide {
+  width: 100vw;
+  padding-left: 0;
+}
+
+.languages,
+.aboutMe {
+  padding-left: 1.5rem;
+}
+
+.education {
+  padding-left: 0.5rem;
+}
+
+.container__rightSide {
+  width: 100vw;
+  padding: 0 0 0 1rem;
+}
+
+.courses {
+  width: 95vw;
+  background-color: #dfc7d0;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  padding-left: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 5px;
+}
+
+.courses h2 {
+  padding-bottom: 0;
+}
+
+.courses ul {
+  margin-top: 0;
+}
+
+.logoCzechitas {
+  height: 2rem;
+  margin-left: 1rem;
+}
+
+.google {
+  display: flex;
+  align-items: center;
+}
+
+.logoCoursera {
+  height: 0.5rem;
+  margin: 0 1rem 0 1.5rem;
+}
+
+.logoGoogle {
+  height: 1.5rem;
+}
+
+.logoUdemy {
+  height: 1rem;
+  margin-left: 1.5rem;
+}
+
+.work h2,
+.education h2 {
+  padding-bottom: 0;
+}
+
+.work {
+  padding-left: 0.5rem;
+}
+
+.other {
+  padding-left: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+.copyright {
+  height: 1rem;
+  padding-right: 1em;
+}
+
+@media (min-width: 500px) {
+  .page {
+    width: 21cm;
+    min-height: 29.7cm;
+    padding: 1cm;
+    margin: root.$spacer auto;
+    border: 1px #d3d3d3 solid;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .cv__title {
+    position: static;
+    width: 100%;
+  }
+
+  .cv__hero {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .foto {
+    width: 36%;
+    margin: 0;
+  }
+
+  .hero__rightSide {
+    width: 64%;
+    padding-left: 1rem;
+  }
+
+  .contact__address div,
+  .contact__address a {
+    width: 35%;
+  }
+
+  .contact__phoneEmail a,
+  .contact__socialNetworks a,
+  .contact__address div,
+  .contact__address a {
+    padding: 0;
+  }
+
+  .contact__phoneEmail,
+  .contact__address {
+    padding-left: 30px;
+  }
+  .contact__phoneEmail a {
+    width: 35%;
+  }
+
+  .important {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.5rem 0.5rem 0.5rem;
+    margin: 0;
+  }
+
+  .important__it {
+    width: 40%;
+  }
+
+  .important__portfolio {
+    width: 60%;
+  }
+
+  .container {
+    flex-direction: row;
+  }
+  .contact__socialNetworks {
+    justify-content: space-between;
+  }
+
+  .container__leftSide {
+    width: 36%;
+    padding-left: 0rem;
+  }
+
+  .container__rightSide {
+    width: 64%;
+    padding: 0 1rem 0 1.5rem;
+  }
+
+  .courses {
+    padding-left: 0.5rem;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .languages,
+  .aboutMe {
+    padding-left: 0.5rem;
+  }
+
+  .work {
+    padding-left: 0;
+  }
+
+  .other {
+    padding-left: 0;
+    margin-bottom: 3rem;
+  }
+  .education {
+    padding-left: 0;
+  }
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+  .page {
+    width: 21cm;
+    min-height: 29.7cm;
+    padding: 1cm;
+    margin: 0;
+    border: initial;
+    border-radius: initial;
+    width: initial;
+    min-height: initial;
+    box-shadow: initial;
+    background: initial;
+    page-break-after: always;
+  }
+
+  .important {
+    border: 0.5px solid #582c3e;
+    box-shadow: 5px 5px 5px -2px #582c3e;
+  }
+
+  .courses {
+    border: 0.5px solid #582c3e;
+    box-shadow: 5px 5px 5px -2px #582c3e;
+  }
+
+  /*prit A4 form mobile*/
+
+  .cv__title {
+    position: static;
+    width: 100%;
+  }
+
+  .cv__hero {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .foto {
+    width: 36%;
+    margin: 0;
+  }
+
+  .hero__rightSide {
+    width: 64%;
+    padding-left: 1rem;
+  }
+
+  .contact__address div,
+  .contact__address a {
+    width: 35%;
+  }
+
+  .contact__phoneEmail a,
+  .contact__socialNetworks a,
+  .contact__address div,
+  .contact__address a {
+    padding: 0;
+  }
+
+  .contact__phoneEmail,
+  .contact__address {
+    padding-left: 30px;
+  }
+  .contact__phoneEmail a {
+    width: 35%;
+  }
+
+  .important {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.5rem 0.5rem 0.5rem;
+    margin: 0;
+  }
+
+  .important__it {
+    width: 40%;
+  }
+
+  .important__portfolio {
+    width: 60%;
+  }
+
+  .container {
+    flex-direction: row;
+  }
+  .contact__socialNetworks {
+    justify-content: space-between;
+  }
+
+  .container__leftSide {
+    width: 36%;
+    padding-left: 0rem;
+  }
+
+  .container__rightSide {
+    width: 64%;
+    padding: 0 1rem 0 1.5rem;
+  }
+
+  .courses {
+    padding-left: 0.5rem;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .languages,
+  .aboutMe {
+    padding-left: 0.5rem;
+  }
+
+  .work {
+    padding-left: 0;
+  }
+
+  .other {
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  .education {
+    padding-left: 0;
+  }
+}
