@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.ca6e8539.css",
-    "main.js": "/static/js/main.9e64ae1e.js",
+    "main.css": "/static/css/main.cb2e23a9.css",
+    "main.js": "/static/js/main.fb053e5d.js",
     "static/js/787.91bd55c5.chunk.js": "/static/js/787.91bd55c5.chunk.js",
     "static/media/stanislavaVavrinova.jpg": "/static/media/stanislavaVavrinova.df41fe606779ffcfc98b.jpg",
     "static/media/kolo.svg": "/static/media/kolo.d5ebfc8106a961a5980f.svg",
     "static/media/appka-hyposka.jpeg": "/static/media/appka-hyposka.b79881f9c042b5c5404a.jpeg",
+    "static/media/SlavkaVav.jpg": "/static/media/SlavkaVav.a6e2aafa4ccabe108095.jpg",
     "static/media/budejcanda.jpeg": "/static/media/budejcanda.0bfe661b3cf4531d24f7.jpeg",
     "static/media/gerta.jpeg": "/static/media/gerta.06060e1fdd97daf28262.jpeg",
     "static/media/statek.jpeg": "/static/media/statek.9350cb7d4e2eaac45bed.jpeg",
@@ -13,7 +14,7 @@
     "static/media/chata-gerta.jpeg": "/static/media/chata-gerta.59f666cd08eeb38bc423.jpeg",
     "static/media/slavkaWeb.jpg": "/static/media/slavkaWeb.add59b78a1844b5a742c.jpg",
     "static/media/logoCzechitas.svg": "/static/media/logoCzechitas.4b57943a5755d5a146a81c09a3170708.svg",
-    "static/media/slavkaMobile2.jpg": "/static/media/slavkaMobile2.80f66772a0b204f25bbb.jpg",
+    "static/media/slavkaMobile.jpg": "/static/media/slavkaMobile.5470db2f633ea7e3e0c9.jpg",
     "static/media/wesbos.png": "/static/media/wesbos.d59af54c62ca86c47104.png",
     "static/media/web.svg": "/static/media/web.bb5e2caf68d6409266ab1fd65dc423bb.svg",
     "static/media/inkscape.svg": "/static/media/inkscape.96bf18eaa7893cd3d7340f9a4ea04a50.svg",
@@ -37,12 +38,12 @@
     "static/media/css.svg": "/static/media/css.f0d74c76bdcbecce38b4f1b68a6b537c.svg",
     "static/media/vsCode.svg": "/static/media/vsCode.1e92d272a7d5c97f8ba2b425ea554b67.svg",
     "index.html": "/index.html",
-    "main.ca6e8539.css.map": "/static/css/main.ca6e8539.css.map",
-    "main.9e64ae1e.js.map": "/static/js/main.9e64ae1e.js.map",
+    "main.cb2e23a9.css.map": "/static/css/main.cb2e23a9.css.map",
+    "main.fb053e5d.js.map": "/static/js/main.fb053e5d.js.map",
     "787.91bd55c5.chunk.js.map": "/static/js/787.91bd55c5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca6e8539.css",
-    "static/js/main.9e64ae1e.js"
+    "static/css/main.cb2e23a9.css",
+    "static/js/main.fb053e5d.js"
   ]
 }
