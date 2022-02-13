@@ -1,10 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.476a026b.css",
-    "main.js": "/static/js/main.1b6af1ef.js",
+    "main.js": "/static/js/main.5024b9ed.js",
     "static/js/787.91bd55c5.chunk.js": "/static/js/787.91bd55c5.chunk.js",
     "static/media/stanislavaVavrinova.jpg": "/static/media/stanislavaVavrinova.df41fe606779ffcfc98b.jpg",
+    "static/media/gerta.png": "/static/media/gerta.5588d193aa1ad9add468.png",
     "static/media/kolo.svg": "/static/media/kolo.d5ebfc8106a961a5980f.svg",
+    "static/media/school.png": "/static/media/school.38a1692a68ad087038c0.png",
+    "static/media/restaurant.png": "/static/media/restaurant.c4a0c7288ac4d1a942c2.png",
     "static/media/appka-hyposka.jpeg": "/static/media/appka-hyposka.b79881f9c042b5c5404a.jpeg",
     "static/media/SlavkaVav.jpg": "/static/media/SlavkaVav.a6e2aafa4ccabe108095.jpg",
     "static/media/budejcanda.jpeg": "/static/media/budejcanda.0bfe661b3cf4531d24f7.jpeg",
@@ -34,17 +37,17 @@
     "static/media/wordpress.svg": "/static/media/wordpress.12935f6be94dcae1b68d510908622764.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.782f43665c8090d80364599d87d1bbd0.svg",
     "static/media/photoshop.svg": "/static/media/photoshop.271e021a34d5a7b2837abf664d06f5c3.svg",
+    "index.html": "/index.html",
     "static/media/html.svg": "/static/media/html.95acec28001339bec36c9c720b044a6d.svg",
     "static/media/css.svg": "/static/media/css.f0d74c76bdcbecce38b4f1b68a6b537c.svg",
-    "index.html": "/index.html",
     "static/media/vsCode.svg": "/static/media/vsCode.1e92d272a7d5c97f8ba2b425ea554b67.svg",
     "static/media/targetBlank.svg": "/static/media/targetBlank.74e5bf903b5fe84e7ad5.svg",
     "main.476a026b.css.map": "/static/css/main.476a026b.css.map",
-    "main.1b6af1ef.js.map": "/static/js/main.1b6af1ef.js.map",
+    "main.5024b9ed.js.map": "/static/js/main.5024b9ed.js.map",
     "787.91bd55c5.chunk.js.map": "/static/js/787.91bd55c5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.476a026b.css",
-    "static/js/main.1b6af1ef.js"
+    "static/js/main.5024b9ed.js"
   ]
 }
