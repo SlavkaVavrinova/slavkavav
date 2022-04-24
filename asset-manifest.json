@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f8a35d5d.css",
-    "main.js": "/static/js/main.f8dac9bd.js",
+    "main.css": "/static/css/main.c753cd38.css",
+    "main.js": "/static/js/main.5130842a.js",
     "static/js/787.91bd55c5.chunk.js": "/static/js/787.91bd55c5.chunk.js",
     "static/media/stanislavaVavrinova.jpg": "/static/media/stanislavaVavrinova.df41fe606779ffcfc98b.jpg",
     "static/media/kolo.svg": "/static/media/kolo.d5ebfc8106a961a5980f.svg",
@@ -33,17 +33,18 @@
     "static/media/wordpress.svg": "/static/media/wordpress.12935f6be94dcae1b68d510908622764.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.782f43665c8090d80364599d87d1bbd0.svg",
     "static/media/photoshop.svg": "/static/media/photoshop.271e021a34d5a7b2837abf664d06f5c3.svg",
+    "static/media/gitlab.svg": "/static/media/gitlab.2cbdb1d4684f90ccd69540690cb0caa8.svg",
     "index.html": "/index.html",
     "static/media/html.svg": "/static/media/html.95acec28001339bec36c9c720b044a6d.svg",
     "static/media/css.svg": "/static/media/css.f0d74c76bdcbecce38b4f1b68a6b537c.svg",
     "static/media/vsCode.svg": "/static/media/vsCode.1e92d272a7d5c97f8ba2b425ea554b67.svg",
     "static/media/targetBlank.svg": "/static/media/targetBlank.74e5bf903b5fe84e7ad5.svg",
-    "main.f8a35d5d.css.map": "/static/css/main.f8a35d5d.css.map",
-    "main.f8dac9bd.js.map": "/static/js/main.f8dac9bd.js.map",
+    "main.c753cd38.css.map": "/static/css/main.c753cd38.css.map",
+    "main.5130842a.js.map": "/static/js/main.5130842a.js.map",
     "787.91bd55c5.chunk.js.map": "/static/js/787.91bd55c5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8a35d5d.css",
-    "static/js/main.f8dac9bd.js"
+    "static/css/main.c753cd38.css",
+    "static/js/main.5130842a.js"
   ]
 }
