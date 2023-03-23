@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c753cd38.css",
-    "main.js": "/static/js/main.d40173f8.js",
+    "main.js": "/static/js/main.6b70bea7.js",
     "static/js/787.91bd55c5.chunk.js": "/static/js/787.91bd55c5.chunk.js",
     "static/media/stanislavaVavrinova.jpg": "/static/media/stanislavaVavrinova.df41fe606779ffcfc98b.jpg",
     "static/media/kolo.svg": "/static/media/kolo.d5ebfc8106a961a5980f.svg",
@@ -40,11 +40,11 @@
     "static/media/vsCode.svg": "/static/media/vsCode.1e92d272a7d5c97f8ba2b425ea554b67.svg",
     "static/media/targetBlank.svg": "/static/media/targetBlank.74e5bf903b5fe84e7ad5.svg",
     "main.c753cd38.css.map": "/static/css/main.c753cd38.css.map",
-    "main.d40173f8.js.map": "/static/js/main.d40173f8.js.map",
+    "main.6b70bea7.js.map": "/static/js/main.6b70bea7.js.map",
     "787.91bd55c5.chunk.js.map": "/static/js/787.91bd55c5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c753cd38.css",
-    "static/js/main.d40173f8.js"
+    "static/js/main.6b70bea7.js"
   ]
 }
